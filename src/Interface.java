@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 public class Interface extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
-        primaryStage.setTitle("Hello world");
+        primaryStage.setTitle("DataFlight");
         Group root = new Group();
         Pane pane = new Pane(root);
         Scene theScene = new Scene(pane, 600, 400,true);
