@@ -1,3 +1,7 @@
+import javafx.scene.input.MouseButton;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.input.PickResult;
+
 public class Aeroport {
     // Attributs de la classe
     private String IATA;
@@ -13,6 +17,10 @@ public class Aeroport {
         this.country = country;
         this.latitude = latitude;
         this.longitude = longitude;
+    }
+
+    public String getCountry() {
+        return country;
     }
 
     // Getters
